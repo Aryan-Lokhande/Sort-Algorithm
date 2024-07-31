@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(45deg, #1C1C28, #235396);
+}
+
+.button{
+    color: #fff;
+}
+.Brand1 {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(92, 179, 181);
+    vertical-align: 8%;
+}
+
+.Brand2 {
+    font-family: 'Monoton', cursive;
+    color: rgb(127, 246, 77);
+
+}
+
+.temp{
+    color: #27e84a;
+}
