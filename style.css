@@ -1,22 +1,50 @@
-body{
+body {
     background: linear-gradient(45deg, #1C1C28, #235396);
 }
 
-.button{
+.button {
     color: #fff;
 }
-.Brand1 {
-    font-family: 'Bungee Shade', cursive;
-    color: rgb(92, 179, 181);
-    vertical-align: 8%;
-}
 
-.Brand2 {
-    font-family: 'Monoton', cursive;
-    color: rgb(127, 246, 77);
-
-}
-
-.temp{
+.temp {
     color: #27e84a;
+}
+
+.dBox {
+    width: 90%;
+    color: white;
+    background: linear-gradient(45deg, #1C1C28, #3a4452);
+    /* display: flex; */
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+
+}
+
+.temp {
+    color: rgb(0, 208, 255);
+}
+
+.orange {
+    color: #ff8c00;
+}
+
+canvas {
+    width: 90%;
+    display: flex;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    /* margin:auto; */
+    /* align-self: center; */
+    border: 1px solid black;
+    border-style: groove;
+    background: linear-gradient(45deg, #1C1C28, #3a4452);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
 }
