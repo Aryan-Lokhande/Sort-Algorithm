@@ -11,15 +11,20 @@ function resizeCanvas() {
 resizeCanvas();
 
 window.addEventListener("resize", resizeCanvas, false);
-//
 
 var arrclick = document.querySelector(".arrsize");
 var arrsize = 20;
 arrclick.addEventListener("click", function () {
   arrsize = prompt("Size of Array? [optimum max size - 30]");
-  console.log("array size taken--- " + arrsize);
+  if (arrsize > 30) {
+    alert("Array size should not be more than 30,\nArray size is set to the default  20");
+    arrsize = 20;
+  } else {
+    console.log("array size taken--- " + arrsize);
+  }
   alert("Please select a sort now , Array's size has been set to -" + arrsize);
 });
+
 document.querySelector(".Quick").addEventListener("click", function () {
   all(arrsize, "quick");
   console.log(arrsize + "quick");
@@ -105,8 +110,6 @@ function all(arrsize, stringy) {
 }
 
 
-
-
 function bubblesort(array) {
   var moves = [];
   do {
@@ -167,7 +170,6 @@ function selectionSort(array) {
       }
     }
   } while (swapped);
-
   return moves;
 }
 function quickSort(array, start = 0, end = array.length - 1, moves) {
