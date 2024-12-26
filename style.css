@@ -10,6 +10,10 @@ body {
     color: #27e84a;
 }
 
+pre{
+    color: white;
+}
+
 .dBox {
     width: 90%;
     color: white;
