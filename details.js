@@ -8,7 +8,7 @@ bubble.addEventListener("click", function () {
     div.innerHTML = `
         <h2 class="temp"><b>Bubble Sort Algorithm</b></h2>
         <h3 class="orange">Algorithm:</h3>
-        <p>
+        <pre>
 function bubbleSort(arr) {
   let n = arr.length;
   for (let i = 0; i < n - 1; i++) {
@@ -23,7 +23,7 @@ function bubbleSort(arr) {
   }
   return arr;
 }
-        </p>
+        </pre>
         <h3 class="orange">Explanation:</h3>
         <p>
           Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. 
@@ -92,7 +92,7 @@ heap.addEventListener("click", function () {
     div.innerHTML = `
         <h2 class="temp"><b>Heap Sort Algorithm</b></h2>
         <h3 class="orange">Algorithm:</h3>
-        <p>
+        <pre>
 function heapSort(arr) {
   function heapify(arr, n, i) {
     let largest = i;
@@ -125,7 +125,7 @@ function heapSort(arr) {
   }
   return arr;
 }
-        </p>
+        </pre>
         <h3 class="orange">Explanation:</h3>
         <p>
           Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. 
@@ -151,7 +151,7 @@ insertion.addEventListener("click", function () {
     div.innerHTML = `
         <h2 class="temp"><b>Insertion Sort Algorithm</b></h2>
         <h3 class="orange">Algorithm:</h3>
-        <p>
+        <pre>
 function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     let key = arr[i];
@@ -165,7 +165,7 @@ function insertionSort(arr) {
   }
   return arr;
 }
-        </p>
+        </pre>
         <h3 class="orange">Explanation:</h3>
         <p>
           Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. 
@@ -191,7 +191,7 @@ selection.addEventListener("click", function () {
     div.innerHTML = `
         <h2 class="temp"><b>Selection Sort Algorithm</b></h2>
         <h3 class="orange">Algorithm:</h3>
-        <p>
+        <pre>
 function selectionSort(arr) {
   let n = arr.length;
 
@@ -212,7 +212,7 @@ function selectionSort(arr) {
   }
   return arr;
 }
-        </p>
+        </pre>
         <h3 class="orange">Explanation:</h3>
         <p>
           Selection Sort is a simple sorting algorithm that repeatedly selects the smallest (or largest) element 
