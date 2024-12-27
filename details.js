@@ -37,7 +37,10 @@ function bubbleSort(arr) {
             <li>Average Case: O(n²)</li>
             <li>Worst Case (Reversed Order): O(n²)</li>
           </ul>
-          <li ><strong class="orange">Space Complexity:</strong> O(1) (In-place sorting, no extra memory required apart from variables)</li>
+          <li ><strong class="orange">Space Complexity:</strong></li>
+          <ul>
+          <li>O(1) (In-place sorting, no extra memory required apart from variables)</li>
+          </ul>
         </ul>
     `;
 });
@@ -81,7 +84,10 @@ function quickSort(arr) {
             <li>Average Case: O(n log n)</li>
             <li>Worst Case (Unbalanced partitions): O(n²)</li>
           </ul>
-          <li ><strong class="orange">Space Complexity:</strong> O(log n) (Due to recursive stack usage)</li>
+          <li ><strong class="orange">Space Complexity:</strong></li>
+          <ul>
+            <li>O(log n) (Due to recursive stack usage)</li>
+          </ul>
         </ul>
     `;
 });
@@ -140,7 +146,10 @@ function heapSort(arr) {
             <li>Average Case: O(n log n)</li>
             <li>Worst Case: O(n log n)</li>
           </ul>
-          <li ><strong class="orange">Space Complexity:</strong> O(1) (In-place sorting, no additional memory required)</li>
+          <li ><strong class="orange">Space Complexity:</strong></li>
+          <ul>
+            <li>O(1) (In-place sorting, no additional memory required)</li>
+          </ul>
         </ul>
     `;
 });
@@ -180,7 +189,10 @@ function insertionSort(arr) {
             <li>Average Case: O(n²)</li>
             <li>Worst Case (Reversed Order): O(n²)</li>
           </ul>
-          <li ><strong class="orange">Space Complexity:</strong> O(1) (In-place sorting, no additional memory required)</li>
+          <li ><strong class="orange">Space Complexity:</strong></li>
+          <ul>
+            <li>O(1) (In-place sorting, no additional memory required)</li>
+          </ul>
         </ul>
     `;
 });
@@ -227,7 +239,10 @@ function selectionSort(arr) {
             <li>Average Case: O(n²)</li>
             <li>Worst Case: O(n²)</li>
           </ul>
-          <li ><strong class="orange">Space Complexity:</strong> O(1) (In-place sorting, no additional memory required)</li>
+          <li ><strong class="orange">Space Complexity:</strong> </li>
+          <ul>
+            <li>O(1) (In-place sorting, no additional memory required)</li>
+           </ul>
         </ul>
     `;
 });
